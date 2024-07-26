@@ -34,5 +34,8 @@ uninstall: (remove "@local")
 # uninstalls the library from the "@preview" prefix (for pre-release testing)
 uninstall-preview: (remove "@preview")
 
+[private]
+ci-test-setup: (test "tests-setup")
+
 # run ci suite
-ci: test
+ci: ci-test-setup test

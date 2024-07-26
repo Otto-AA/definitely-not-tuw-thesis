@@ -44,7 +44,7 @@ jobs:
           typst-version: ${{ matrix.typst-version }}
 
       - name: Run test suite
-        run: just test
+        run: just ci
 
       - name: Archive diffs
         uses: actions/upload-artifact@v4
