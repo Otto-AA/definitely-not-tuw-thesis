@@ -1,6 +1,8 @@
 #let general-styles = rest => {
   set par(justify: true)
 
+  show smallcaps: set text(font: "Latin Modern Roman Caps")
+
   show emph: it => {
     text(it, spacing: 4pt)
   }
