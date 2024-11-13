@@ -24,5 +24,13 @@
     v(30pt)
   }
 
+  set list(
+      indent: 2em
+  )
+
+  set enum(
+      indent: 2em
+  )
+
   rest
 }
