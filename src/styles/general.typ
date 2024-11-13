@@ -1,4 +1,9 @@
 #let general-styles = rest => {
+  show heading.where(level: 1): set heading(supplement: "Chapter")
+  show heading.where(level: 2): set heading(supplement: "Section")
+  show heading.where(level: 3): set heading(supplement: "Subsection")
+  show heading.where(level: 4): set heading(supplement: "§")
+
   set par(justify: true)
 
   show smallcaps: set text(font: "Latin Modern Roman Caps")
