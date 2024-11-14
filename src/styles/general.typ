@@ -4,6 +4,8 @@
   show heading.where(level: 3): set heading(supplement: "Subsection")
   show heading.where(level: 4): set heading(supplement: "§")
 
+  show heading: set text(hyphenate: false)
+
   set par(justify: true)
 
   show smallcaps: set text(font: "Latin Modern Roman Caps")
