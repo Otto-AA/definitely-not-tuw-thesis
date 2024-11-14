@@ -34,6 +34,7 @@
     it
     v(30pt)
   }
+  show figure.where(kind: "algorithm"): set figure(supplement: "Algorithm")
 
   set list(
       indent: 2em
