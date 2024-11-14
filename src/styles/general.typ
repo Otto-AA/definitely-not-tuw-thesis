@@ -7,9 +7,6 @@
   show heading: set text(hyphenate: false)
   show heading.where(level: 1): set align(right)
 
-  show outline: set heading(outlined: true)
-  show outline: set heading(bookmarked: true)
-
   set par(justify: true)
 
   show smallcaps: set text(font: "Latin Modern Roman Caps")

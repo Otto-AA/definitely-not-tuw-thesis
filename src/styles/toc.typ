@@ -3,6 +3,9 @@
 #let toc-styles = rest => {
   set outline(depth: 2, indent: auto)
 
+  show outline: set heading(outlined: true)
+  show outline: set heading(bookmarked: true)
+
   show outline.entry.where(level: 1): it => {
     context if is-back-matter.get() {
       // List of Figures/...
