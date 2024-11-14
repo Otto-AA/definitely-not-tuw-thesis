@@ -5,6 +5,7 @@
   show heading.where(level: 4): set heading(supplement: "§")
 
   show heading: set text(hyphenate: false)
+  show heading.where(level: 1): set align(right)
 
   set par(justify: true)
 
