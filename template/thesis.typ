@@ -22,9 +22,6 @@
 #show: toc-styles
 #show: front-matter-styles
 
-// If you have non-image/table figures, you need to pass a "supplement", that is shown when referencing it (@my-alg). You can globally set this, e.g. for algorithms:
-#show figure.where(kind: "algorithm"): set figure(supplement: "Algorithm")
-
 #include "content/front-matter.typ"
 #outline()
 
@@ -34,7 +31,6 @@
 #include "content/main.typ"
 
 #show: back-matter-styles
-#set page(header: none)
 
 #outline(title: "List of Figures", target: figure.where(kind: image))
 #outline(title: "List of Tables", target: figure.where(kind: table))
