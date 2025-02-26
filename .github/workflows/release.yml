@@ -9,6 +9,9 @@ env:
 
 jobs:
   release:
+    strategy:
+      matrix:
+        typst-version: ["0.13"]
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -28,7 +31,7 @@ jobs:
       - name: Setup typst
         uses: typst-community/setup-typst@v3
         with:
-          typst-version: latest
+          typst-version: ${{ matrix.typst-version }}
 
       - name: Determine and check package metadata
         run: |
