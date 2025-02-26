@@ -26,14 +26,14 @@
     #v(6em)
 
     #align(center)[
-      #show par: set block(spacing: 1.5em)
+      #set par(spacing: 1.5em)
 
       #box(width: 100%, height: 7.5em)[
         #place(bottom)[
           #box(width: 100%, height: 100%)[
             // TODO: spacing between title and subtitle is not good
             #text(translate("title"), size: 2.5em, weight: "bold")
-
+            \
             #text(translate("subtitle"), size: 1.5em, weight: "bold")
           ]
         ]
@@ -55,7 +55,7 @@
 
       #translate("submitted-by")
 
-      #show par: set block(spacing: 0.6em)
+      #set par(spacing: 0.6em)
       #text(name-with-titles(author), size: 1.2em, weight: "bold")
 
       #translate("student-number") #author.at("student-number", default: "")
@@ -69,7 +69,7 @@
       #translate("at-TU")
 
       #[
-        #show par: set block(spacing: 0.5em)
+        #set par(spacing: 0.5em)
         #translate("advisor"): #name-with-titles(advisor)
 
         #if assistants.len() > 0 [
@@ -113,7 +113,7 @@
 
         grid.cell(colspan: 3)[
           #align(center)[
-            #show par: set block(spacing: 0.5em)
+            #set par(spacing: 0.5em)
             #line(length: 100%)
             #translate("TU")
 
