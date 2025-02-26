@@ -8,11 +8,11 @@ default:
 
 # run test suite
 test *args:
-	typst-test run {{ args }}
+	tt run {{ args }}
 
 # update test cases
 update *args:
-	typst-test update {{ args }}
+	tt update {{ args }}
 
 # package the library into the specified destination folder
 package target:

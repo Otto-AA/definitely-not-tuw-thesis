@@ -15,7 +15,7 @@ jobs:
   build:
     strategy:
       matrix:
-        typst-version: ["0.11"]
+        typst-version: ["0.13"]
     runs-on: ubuntu-latest
     steps:
       - name: Set up Git repository

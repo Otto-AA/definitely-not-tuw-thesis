@@ -8,6 +8,6 @@ This project uses [Just](https://just.systems/man/en/) to have some convenience 
 
 ## Testing
 
-We have some visual regression tests using [typst-test](https://github.com/tingerrr/typst-test). They sadly differed between CI and my local setup, so they are not enabled currently.
+We have some visual regression tests using [tytanic](https://github.com/tingerrr/typst-test). They use fonts built into the Typst compiler, such that it is easily reproducible across different systems.
 
-To run them use `just test`. If a test fails, you will have pictures of the current rendering, the new one and an overlay of those two for comparison. If you want to update the images, use `just update`.
+To run them, install it and use `just test` (or `tt run`). If a test fails, you will have pictures of the current rendering, the new one and an overlay of those two for comparison (they are stored next to the test files). If you want to update the images, use `just update` (or `tt update`).

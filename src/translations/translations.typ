@@ -1,4 +1,4 @@
-#import "@preview/linguify:0.4.1": linguify, set-database
+#import "@preview/linguify:0.4.2": linguify, set-database
 
 #let set-defaults = (obj, keys, default) => {
   // for each key, sets default value if key does not exist

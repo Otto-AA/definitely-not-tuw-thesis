@@ -14,6 +14,6 @@
   assistants: ((name: "Ipsinator", pre-title: "Sir"),),
   reviewers: (),
   keywords: ("Lorem Ipsum"),
-  font: "DejaVu Sans",
+  font: "DejaVu Sans Mono",
   date: datetime(year: 2024, month: 12, day: 1),
 )
