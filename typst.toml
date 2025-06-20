@@ -1,6 +1,6 @@
 [package]
 name = "definitely-not-tuw-thesis"
-version = "0.1.0"
+version = "0.2.0"
 entrypoint = "src/thesis.typ"
 authors = ["Othmar Lechner @Otto-AA"]
 license = "MIT-0"

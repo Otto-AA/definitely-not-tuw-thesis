@@ -1,4 +1,4 @@
-#import "@preview/definitely-not-tuw-thesis:0.1.0": *
+#import "@preview/definitely-not-tuw-thesis:0.2.0": *
 
 #show: general-styles
 

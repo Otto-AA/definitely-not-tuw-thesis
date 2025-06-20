@@ -7,7 +7,7 @@ An example thesis can be viewed here: https://otto-aa.github.io/definitely-not-t
 You can download the template with:
 
 ```bash
-typst init @preview/definitely-not-tuw-thesis:0.1.0
+typst init @preview/definitely-not-tuw-thesis
 ```
 
 ### Template overview
